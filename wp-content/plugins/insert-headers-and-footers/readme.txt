@@ -4,7 +4,7 @@ Tags: code, css, php, footer, functions, content, facebook pixel, footer code, f
 Requires at least: 4.6
 Tested up to: 6.4
 Requires PHP: 5.5
-Stable tag: 2.1.7
+Stable tag: 2.1.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -307,6 +307,10 @@ Thank you
 Syed Balkhi
 
 == Changelog ==
+
+= 2.1.8 =
+* Tweak: We changed the way the code generators are loaded to improve performance overall.
+* Tweak: We changed the way translations are loaded for better performance.
 
 = 2.1.7 =
 * New: WPCode now has a Dark Mode for those late night coding sessions. Enable it on the settings page.

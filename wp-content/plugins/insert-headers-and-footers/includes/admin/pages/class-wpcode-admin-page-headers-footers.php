@@ -291,7 +291,7 @@ class WPCode_Admin_Page_Headers_Footers extends WPCode_Admin_Page {
 			exit;
 		}
 
-		$this->set_success_message( __( 'Settings Saved.', 'insert-headers-and-footers' ) );
+		$this->set_success_message( __( 'Settings Saved. Please don\'t forget to clear the site cache if you are using a cache plugin, so that the changes will be reflected for all users.', 'insert-headers-and-footers' ) );
 	}
 
 	/**

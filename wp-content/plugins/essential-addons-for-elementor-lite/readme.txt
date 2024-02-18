@@ -4,7 +4,7 @@ Tags: elementor, elements, addons, elementor addons, elementor widget, elementor
 Requires at least: 5.0
 Tested up to: 6.4
 Requires PHP: 7.0
-Stable tag: 5.9.7
+Stable tag: 5.9.8
 License: GPLv3
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -14,7 +14,7 @@ The Essential plugin you install after Elementor! Packed with 50+ stunning free 
 
 Enhance your [Elementor](https://wordpress.org/plugins/elementor/) page building experience with 90+ creative elements and extensions. Add powers to your website builder using our easy-to-use Elementor widgets and ready template which were designed to make your next WordPress page and posts design easier and prettier than ever before.
 
-##ESSENTIAL ADDONS FOR ELEMENTOR - 90+ BEST ELEMENTOR WIDGETS WITH KITS, 5,000+ READY TEMPLATES & BEST WOOCOMMERCE BUILDER, SERVING 1 MILLION+ ACTIVE USERS##
+##ESSENTIAL ADDONS FOR ELEMENTOR - 90+ BEST ELEMENTOR WIDGETS WITH KITS, 5,000+ READY TEMPLATES & BEST WOOCOMMERCE BUILDER, SERVING 2 MILLION+ ACTIVE USERS##
 
 [Check the Demos](https://essential-addons.com/elementor/demos)
 
@@ -296,6 +296,12 @@ Your existing elements/content will work with premium version. So you won't lose
 
 
 == Changelog ==
+
+= 5.9.8 - 01/02/2024 =
+
+- Improved: Security Enhancement
+- Fixed: Minor styling issue on Hello Elementor child theme
+- Few minor bug fixes & improvements
 
 = 5.9.7 - 18/01/2024 =
 

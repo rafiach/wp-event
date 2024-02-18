@@ -448,6 +448,8 @@ class WPCode_Admin_Page_Snippet_Manager extends WPCode_Admin_Page {
 			'after_paragraph'     => __( 'after paragraph number', 'insert-headers-and-footers' ),
 			'archive_before_post' => __( 'before post number', 'insert-headers-and-footers' ),
 			'archive_after_post'  => __( 'after post number', 'insert-headers-and-footers' ),
+			'after_words'         => __( 'minimum number of words', 'insert-headers-and-footers' ),
+			'every_words'         => __( 'number of words', 'insert-headers-and-footers' ),
 		);
 		$markup       = '';
 		foreach ( $descriptions as $value => $description ) {
@@ -1242,8 +1244,9 @@ class WPCode_Admin_Page_Snippet_Manager extends WPCode_Admin_Page {
 				$markup = sprintf( '<input type="text" class="wpcode-input-text wpcode-input-datetime" value="%s" />', esc_attr( $value ) );
 				break;
 			case 'ajax':
-				$options = isset( $data['labels_callback'] ) ? $data['labels_callback']( $value ) : array();
-				$markup  = '<select class="wpcode-select2-ajax" data-action="' . esc_attr( $data['options'] ) . '" multiple>';
+				$options  = isset( $data['labels_callback'] ) ? $data['labels_callback']( $value ) : array();
+				$multiple = isset( $data['multiple'] ) && $data['multiple'] ? 'multiple' : '';
+				$markup   = '<select class="wpcode-select2-ajax" data-action="' . esc_attr( $data['options'] ) . '" ' . $multiple . '>';
 				foreach ( $options as $option ) {
 					$markup .= '<option value="' . esc_attr( $option['value'] ) . '" ' . selected( true, true, false ) . '>' . esc_html( $option['label'] ) . '</option>';
 				}

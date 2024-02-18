@@ -17,6 +17,13 @@ abstract class WPCode_Auto_Insert_Type {
 	public $label;
 
 	/**
+	 * A unique name for this type.
+	 *
+	 * @var string
+	 */
+	public $name;
+
+	/**
 	 * An array of locations.
 	 * This is an array of unique locations where snippets can be executed in the form
 	 * of key => label where the keys should be unique for all the options across
